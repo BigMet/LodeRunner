@@ -89,29 +89,29 @@ GameManager::~GameManager(){
 
 // UTILE A CARICARE TUTTE LE BITMAP CHE UTILIZZO NEL GIOCO
 void GameManager::caricaBmp(){
-  pgDxIdle = al_load_bitmap("./Images/Resize/Dx/walkDx0.png");
-  pgSxIdle = al_load_bitmap("./Images/Resize/Sx/walkSx0.png");
+  pgDxIdle = al_load_bitmap("./Images/PlayerDxSx/Dx/walkDx0.png");
+  pgSxIdle = al_load_bitmap("./Images/PlayerDxSx/Sx/walkSx0.png");
 
 
   for(int i =0;i<46;i++)
     bitmapsPg.push_back(NULL);
 
   // ******** DA 0 A 5 PLAYER A DESTRA *****************//
-  bitmapsPg[0] = al_load_bitmap("./Images/Resize/Dx/walkDx1.png");
-  bitmapsPg[1] = al_load_bitmap("./Images/Resize/Dx/walkDx2.png");
-  bitmapsPg[2] = al_load_bitmap("./Images/Resize/Dx/walkDx3.png");
-  bitmapsPg[3] = al_load_bitmap("./Images/Resize/Dx/walkDx4.png");
-  bitmapsPg[4] = al_load_bitmap("./Images/Resize/Dx/walkDx5.png");
-  bitmapsPg[5] = al_load_bitmap("./Images/Resize/Dx/walkDx6.png");
+  bitmapsPg[0] = al_load_bitmap("./Images/PlayerDxSx/Dx/walkDx1.png");
+  bitmapsPg[1] = al_load_bitmap("./Images/PlayerDxSx/Dx/walkDx2.png");
+  bitmapsPg[2] = al_load_bitmap("./Images/PlayerDxSx/Dx/walkDx3.png");
+  bitmapsPg[3] = al_load_bitmap("./Images/PlayerDxSx/Dx/walkDx4.png");
+  bitmapsPg[4] = al_load_bitmap("./Images/PlayerDxSx/Dx/walkDx5.png");
+  bitmapsPg[5] = al_load_bitmap("./Images/PlayerDxSx/Dx/walkDx6.png");
 
 
   // *********** DA 5 A 11 PLAYER A SINISTRA ***************//
-  bitmapsPg[6] = al_load_bitmap("./Images/Resize/Sx/walkSx1.png");
-  bitmapsPg[7] = al_load_bitmap("./Images/Resize/Sx/walkSx2.png");
-  bitmapsPg[8] = al_load_bitmap("./Images/Resize/Sx/walkSx3.png");
-  bitmapsPg[9] = al_load_bitmap("./Images/Resize/Sx/walkSx4.png");
-  bitmapsPg[10] = al_load_bitmap("./Images/Resize/Sx/walkSx5.png");
-  bitmapsPg[11] = al_load_bitmap("./Images/Resize/Sx/walkSx6.png");
+  bitmapsPg[6] = al_load_bitmap("./Images/PlayerDxSx/Sx/walkSx1.png");
+  bitmapsPg[7] = al_load_bitmap("./Images/PlayerDxSx/Sx/walkSx2.png");
+  bitmapsPg[8] = al_load_bitmap("./Images/PlayerDxSx/Sx/walkSx3.png");
+  bitmapsPg[9] = al_load_bitmap("./Images/PlayerDxSx/Sx/walkSx4.png");
+  bitmapsPg[10] = al_load_bitmap("./Images/PlayerDxSx/Sx/walkSx5.png");
+  bitmapsPg[11] = al_load_bitmap("./Images/PlayerDxSx/Sx/walkSx6.png");
 
   // *********** ALTRE IMMAGINI ***************//
   bitmapsPg[12] = al_load_bitmap("./Images/muro.png");
